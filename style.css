@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    height: 400px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+main div {
+    
+    background: orange;
+    width: calc(33.33333% - 20px);
+    height: 100px;
+    margin:10px;
+}
+
+main {
+    display: flex;
+    background: purple;
+    height: 400px;
+    width: 700px;
+    flex-wrap: wrap;
+}
+aside {
+    display: flex;
+    background: grey;
+    height: 400px;
+    width: 300px;
+    align-items: center;
+
+}
+
+aside div {
+    
+    background: orange;
+    width: calc(33.33333% - 20px);
+    height: 100px;
+    margin:10px;
+}
